@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Savory Delights</title>
+    
+    <!-- Bootstrap CSS with Replit theme -->
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-utensils me-2"></i>Savory Delights
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="menu.html">All Menus</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="appetizers.html">Appetizers</a></li>
+                            <li><a class="dropdown-item" href="main-courses.html">Main Courses</a></li>
+                            <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                            <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Menu Hero Section -->
+        <section class="page-hero py-5 mt-5">
+            <div class="container text-center">
+                <h1 class="display-3 fw-bold text-warning mb-3 animate-fade-in">Our Menu</h1>
+                <p class="lead animate-fade-in">Explore our carefully curated selection of culinary masterpieces</p>
+            </div>
+        </section>
+
+        <!-- Menu Categories -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Appetizers -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-category-card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Appetizers">
+                                <div class="card-overlay">
+                                    <div class="card-overlay-content">
+                                        <h3 class="text-white fw-bold mb-3">Appetizers</h3>
+                                        <p class="text-white mb-4">Start your meal with our delectable small plates</p>
+                                        <a href="appetizers.html" class="btn btn-warning btn-lg">Explore Appetizers</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Main Courses -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-category-card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Main Courses">
+                                <div class="card-overlay">
+                                    <div class="card-overlay-content">
+                                        <h3 class="text-white fw-bold mb-3">Main Courses</h3>
+                                        <p class="text-white mb-4">Hearty and satisfying dishes for the main event</p>
+                                        <a href="main-courses.html" class="btn btn-warning btn-lg">Explore Main Courses</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desserts -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-category-card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Desserts">
+                                <div class="card-overlay">
+                                    <div class="card-overlay-content">
+                                        <h3 class="text-white fw-bold mb-3">Desserts</h3>
+                                        <p class="text-white mb-4">Sweet endings to your perfect dining experience</p>
+                                        <a href="desserts.html" class="btn btn-warning btn-lg">Explore Desserts</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Beverages -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-category-card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Beverages">
+                                <div class="card-overlay">
+                                    <div class="card-overlay-content">
+                                        <h3 class="text-white fw-bold mb-3">Beverages</h3>
+                                        <p class="text-white mb-4">Carefully selected wines, cocktails, and refreshments</p>
+                                        <a href="beverages.html" class="btn btn-warning btn-lg">Explore Beverages</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chef's Recommendations -->
+        <section class="py-5 bg-dark">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-4 fw-bold text-warning mb-3">Chef's Recommendations</h2>
+                    <p class="lead">Our head chef's personal favorite dishes</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-4 animate-on-scroll">
+                        <div class="text-center">
+                            <div class="recommendation-icon mb-3">
+                                <i class="fas fa-star text-warning fa-3x"></i>
+                            </div>
+                            <h5 class="text-warning mb-3">Signature Ribeye</h5>
+                            <p>Perfectly grilled to your liking with our secret seasoning blend</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate-on-scroll">
+                        <div class="text-center">
+                            <div class="recommendation-icon mb-3">
+                                <i class="fas fa-award text-warning fa-3x"></i>
+                            </div>
+                            <h5 class="text-warning mb-3">Lobster Risotto</h5>
+                            <p>Creamy arborio rice with fresh lobster and saffron</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate-on-scroll">
+                        <div class="text-center">
+                            <div class="recommendation-icon mb-3">
+                                <i class="fas fa-crown text-warning fa-3x"></i>
+                            </div>
+                            <h5 class="text-warning mb-3">Chocolate Soufflé</h5>
+                            <p>Light, airy, and intensely chocolatey - a perfect ending</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning mb-3">Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>123 Restaurant Street, Food City</p>
+                    <p><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@savorydelights.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning mb-3">Opening Hours</h5>
+                    <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                    <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+                    <p>Sunday: 12:00 PM - 9:00 PM</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning mb-3">Follow Us</h5>
+                    <div class="social-links">
+                        <a class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                        <a class="text-light"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="mb-0">&copy; 2025 Savory Delights. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>

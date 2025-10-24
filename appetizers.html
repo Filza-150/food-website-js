@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appetizers - Savory Delights</title>
+    
+    <!-- Bootstrap CSS with Replit theme -->
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-utensils me-2"></i>Savory Delights
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="menu.html">All Menus</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item active" href="appetizers.html">Appetizers</a></li>
+                            <li><a class="dropdown-item" href="main-courses.html">Main Courses</a></li>
+                            <li><a class="dropdown-item" href="desserts.html">Desserts</a></li>
+                            <li><a class="dropdown-item" href="beverages.html">Beverages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Appetizers Hero Section -->
+        <section class="page-hero py-5 mt-5" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1541014741259-de529411b96a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover;">
+            <div class="container text-center">
+                <h1 class="display-3 fw-bold text-white mb-3 animate-fade-in">Appetizers</h1>
+                <p class="lead text-white animate-fade-in">Start your culinary journey with our exquisite small plates</p>
+            </div>
+        </section>
+
+        <!-- Appetizers Menu -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Appetizer Item 1 -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://images.unsplash.com/photo-1553909489-cd47e0ef937f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100 object-cover" alt="Bruschetta">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5 class="card-title text-warning">Classic Bruschetta</h5>
+                                            <span class="price-tag">$12</span>
+                                        </div>
+                                        <p class="card-text">Toasted artisan bread topped with fresh tomatoes, basil, garlic, and a drizzle of balsamic glaze</p>
+                                        <div class="dish-tags">
+                                            <span class="badge bg-success">Vegetarian</span>
+                                            <span class="badge bg-info">Gluten-Free Option</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appetizer Item 2 -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100 object-cover" alt="Calamari">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5 class="card-title text-warning">Crispy Calamari</h5>
+                                            <span class="price-tag">$16</span>
+                                        </div>
+                                        <p class="card-text">Golden fried squid rings served with marinara sauce and lemon aioli</p>
+                                        <div class="dish-tags">
+                                            <span class="badge bg-primary">Seafood</span>
+                                            <span class="badge bg-warning text-dark">Popular</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appetizer Item 3 -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100 object-cover" alt="Cheese Board">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5 class="card-title text-warning">Artisan Cheese Board</h5>
+                                            <span class="price-tag">$22</span>
+                                        </div>
+                                        <p class="card-text">Selection of premium cheeses with honey, nuts, and seasonal fruits</p>
+                                        <div class="dish-tags">
+                                            <span class="badge bg-success">Vegetarian</span>
+                                            <span class="badge bg-danger">Chef's Choice</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appetizer Item 4 -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100 object-cover" alt="Shrimp Cocktail">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5 class="card-title text-warning">Jumbo Shrimp Cocktail</h5>
+                                            <span class="price-tag">$18</span>
+                                        </div>
+                                        <p class="card-text">Chilled jumbo shrimp served with classic cocktail sauce and lemon</p>
+                                        <div class="dish-tags">
+                                            <span class="badge bg-primary">Seafood</span>
+                                            <span class="badge bg-info">Low Carb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appetizer Item 5 -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100 object-cover" alt="Stuffed Mushrooms">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5 class="card-title text-warning">Stuffed Mushrooms</h5>
+                                            <span class="price-tag">$14</span>
+                                        </div>
+                                        <p class="card-text">Button mushrooms stuffed with herb cream cheese, breadcrumbs, and parmesan</p>
+                                        <div class="dish-tags">
+                                            <span class="badge bg-success">Vegetarian</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appetizer Item 6 -->
+                    <div class="col-lg-6 animate-on-scroll">
+                        <div class="card menu-item-card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100 object-cover" alt="Wings">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <h5 class="card-title text-warning">Buffalo Wings</h5>
+                                            <span class="price-tag">$15</span>
+                                        </div>
+                                        <p class="card-text">Crispy chicken wings tossed in buffalo sauce, served with celery and blue cheese</p>
+                                        <div class="dish-tags">
+                                            <span class="badge bg-warning text-dark">Popular</span>
+                                            <span class="badge bg-danger">Spicy</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation to Other Menus -->
+        <section class="py-5 bg-dark">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h3 class="text-warning mb-3">Explore More</h3>
+                    <p class="lead">Continue your culinary journey</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-3">
+                        <a href="main-courses.html" class="btn btn-outline-warning w-100 py-3">
+                            <i class="fas fa-utensils me-2"></i>Main Courses
+                        </a>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <a href="desserts.html" class="btn btn-outline-warning w-100 py-3">
+                            <i class="fas fa-ice-cream me-2"></i>Desserts
+                        </a>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <a href="beverages.html" class="btn btn-outline-warning w-100 py-3">
+                            <i class="fas fa-wine-glass me-2"></i>Beverages
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning mb-3">Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>123 Restaurant Street, Food City</p>
+                    <p><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@savorydelights.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning mb-3">Opening Hours</h5>
+                    <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                    <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+                    <p>Sunday: 12:00 PM - 9:00 PM</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning mb-3">Follow Us</h5>
+                    <div class="social-links">
+                        <a class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                        <a class="text-light"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="mb-0">&copy; 2025 Savory Delights. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
