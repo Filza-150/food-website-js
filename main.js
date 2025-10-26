@@ -196,7 +196,7 @@ function formatPhoneNumber(input) {
     let value = input.value.replace(/\D/g, '');
     
     if (value.length >= 6) {
-        value = value.substring(0, 3) + '-' + value.substring(3, 6) + '-' + value.substring(6, 10);
+        value = value.substring(0, 3) + '-' + value.substring(3, 6) + '-' + value.substring(6, 11);
     } else if (value.length >= 3) {
         value = value.substring(0, 3) + '-' + value.substring(3);
     }
